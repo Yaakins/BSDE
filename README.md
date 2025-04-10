@@ -1,4 +1,4 @@
-# (Still need to find a name tbh) 
+# Gnomium
 
 ### What is this for ?
 
