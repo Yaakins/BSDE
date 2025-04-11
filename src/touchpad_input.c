@@ -51,6 +51,10 @@ void TP_UpdateMousePos(TP_Context *ctx) {
 
       ctx->mouse_pos.x += rel.x * x_factor;
       ctx->mouse_pos.y += rel.y * y_factor;
+    } else if (event.type == TP_EVENT_BTNDOWN) {
+      ctx->clicked = true;
+    } else if (event.type == TP_EVENT_BTNUP) {
+      ctx->clicked = false;
     } else if (event.type == TP_EVENT_TOUCHDOWN) {
       ctx->last_tp_pos = event.pos;
     }

@@ -28,6 +28,7 @@ typedef struct {
   int fd;
   TP_Vector mouse_pos;
   TP_Vector last_tp_pos;
+  bool clicked;
 } TP_Context;
 
 typedef enum {

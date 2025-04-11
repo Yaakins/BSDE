@@ -59,7 +59,7 @@ void FB_ClearDisplay(FB_Display *d, uint32_t color) {
 
 FB_Display *FB_InitDisplay() {
   if (getenv("TERM") && strcmp(getenv("TERM"), "linux") != 0) {
-    fprintf(stderr, "Unable to run with a graphic environment\n");
+    fprintf(stderr, "Unable to run within a graphic environment\n");
     exit(-1);
   }
 

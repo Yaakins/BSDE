@@ -1,4 +1,4 @@
-# Gnomium
+# BSDE (BullShit Desktop Environment)
 
 ### What is this for ?
 
@@ -20,5 +20,5 @@ It requires superuser privileges, so running it will ask you your password
 
 ### Contact
 
-If you want to help the project, do not hesitate to fork/pull request, or contact me on discord, my username is `yaakin`
+If you want to make the project progress, do not hesitate to fork/pull request, or contact me on discord, my username is `yaakin`
 Hoping you like this project ^^
